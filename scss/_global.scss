@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-padding-top: 56px; /* height of navbar */
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+}
+
+.active {
+    color: $primary;
+}
+
+.btn {
+    border-radius: 25px;
+
+    &-primary {
+        border: none;
+
+        &:hover {
+            background-color: #04c4d9;
+        }
+    }
+}
+
+.gimme-some-space {
+    padding-top: 50px;
+}
